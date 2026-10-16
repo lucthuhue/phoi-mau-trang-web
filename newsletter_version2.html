@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Phiên Bản 2 - Tông Ấm Áp</title>
+    <!-- Liên kết Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #D97706;     /* Cam hổ phách đậm chủ đạo */
+            --secondary-color: #4B5563;   /* Xám đậm chuyên nghiệp */
+            --accent-color: #10B981;      /* Xanh lá ngọc tạo điểm nhấn tươi */
+            --darker-primary-color: #B45309;
+        }
+
+        .primary-bg { background-color: var(--primary-color); }
+        .secondary-bg { background-color: var(--secondary-color); }
+        .accent-bg { background-color: var(--accent-color); }
+        .text-primary-color { color: var(--primary-color); }
+        .text-secondary-color { color: var(--secondary-color); }
+        .text-accent-color { color: var(--accent-color); }
+        
+        .btn-primary-custom {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        .btn-primary-custom:hover {
+            background-color: var(--darker-primary-color);
+            border-color: var(--darker-primary-color);
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <header class="text-center mb-5 p-4 primary-bg text-white rounded shadow-sm">
+            <h1 class="fw-bold">Tiêu đề Newsletter - Bản Sáng Tạo</h1>
+            <p class="mb-0">Khám phá góc nhìn nghệ thuật và tư duy thiết kế trải nghiệm người dùng</p>
+        </header>
+
+        <section class="card mb-4 border-0 shadow-sm">
+            <div class="card-body p-4">
+                <h2 class="card-title text-primary-color fw-bold">Nâng tầm phong cách thiết kế của bạn!</h2>
+                <p class="card-text text-secondary">
+                    Phiên bản thứ hai này sử dụng tông màu ấm áp và chuyên nghiệp hơn, giúp truyền tải cảm giác gần gũi, tin cậy và sáng tạo tới người đọc.
+                </p>
+                <a href="#" class="btn btn-primary-custom px-4 py-2">Khám phá ngay</a>
+            </div>
+        </section>
+
+        <section class="row mb-4">
+            <div class="col-md-6 mb-3">
+                <div class="card h-100 secondary-bg text-white border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="card-title h5 fw-bold">Đổi mới phong cách</h3>
+                        <p class="card-text">Sử dụng gam màu trầm tĩnh giúp giảm mỏi mắt và tăng độ tập trung cho người xem nội dung dài.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card h-100 accent-bg text-white border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="card-title h5 fw-bold">Tương tác hiệu quả</h3>
+                        <p class="card-text">Các điểm nhấn màu xanh ngọc bổ trợ hoàn hảo giúp định hướng sự chú ý vào nút kêu gọi hành động.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-5 p-3 secondary-bg text-white rounded">
+            <p class="mb-0">&copy; 2026 Creative UI/UX Team. Mọi quyền được bảo lưu.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
